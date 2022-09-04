@@ -4,15 +4,14 @@ import java.util.*; // contains Collections framework
 // don't change the name of this class
 // you can add inner classes if needed
 class Main {
-    public static void main (String[] args) {
-                      // Your code here
+  public static void main(String[] args) {
+    // Your code here
     Scanner sc = new Scanner(System.in);
-    int year= sc.nextInt();
-    if((year%4==0 && year%100!=0) || year%400==0){
-            System.out.println("YES");
-        }
-    else{
-        System.out.println("NO");
+    int year = sc.nextInt();
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+      System.out.println("YES!! It is a Leap Year!!!");
+    } else {
+      System.out.println("NO!! It's not!!!");
     }
-    }
+  }
 }
